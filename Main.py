@@ -1,5 +1,5 @@
 import random
-
+#Ura
 from PyQt5.QtWidgets import *
 import base
 
@@ -103,7 +103,6 @@ answer_bth.clicked.connect(ans_func)
 menu_btn.clicked.connect(Menu.menu)
 res_lbl.hide()
 next_quest_btn.hide()
-
 
 window.setLayout(main_line)
 window.show()
